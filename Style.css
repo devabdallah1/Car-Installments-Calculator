@@ -38,8 +38,8 @@ body {
 }
 .formbox {
        width: 900px;
-       padding: 25px;
-   border: #3C896D solid;
+       padding: 25px 25px;
+   border: #edf5f2 solid;
    border-radius: 12px;
     background-color: #FFFFFF;
     margin-left: 24% ;
