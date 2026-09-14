@@ -124,3 +124,17 @@ o
 .calculate-btn {
     background-color: #50FFB1;
 }
+#output1 {
+   border: 2px solid #94a3b8;
+    background-color: #f1f5f9;
+    padding: 20px 90px;
+    color: #475569;
+    border-radius: 12px ;
+}
+#output2 {
+   border: 2px solid #94a3b8;
+    background-color: #f1f5f9;
+    padding: 20px 90px;
+    color: #475569;
+    border-radius: 12px ;
+}
