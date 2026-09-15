@@ -20,8 +20,8 @@ var DownPay= document.querySelector("#DownPay").value
        var total = parseFloat(loan ) + Total_Interest;
        var monthly = parseFloat(total)  / (3 * 12);
        var interestPercentage = (Total_Interest / loan) * 100;
-      document.querySelector("#output1").innerText = monthly;
-document.querySelector("#output2").innerText = interestPercentage + "%";
+      document.querySelector("#output1").innerText = monthly + " $";
+document.querySelector("#output2").innerText = interestPercentage + " %";
 
     }
     else if (period =='7') {
@@ -30,8 +30,8 @@ document.querySelector("#output2").innerText = interestPercentage + "%";
        var total = parseFloat(loan ) + Total_Interest;
        var monthly = parseFloat(total) / (7 * 12);
        var interestPercentage = (Total_Interest / loan) * 100;
-      document.querySelector("#output1").innerText = monthly;
-document.querySelector("#output2").innerText = interestPercentage + "%";
+      document.querySelector("#output1").innerText = monthly + " $";
+document.querySelector("#output2").innerText = interestPercentage + " %";
     }
     else if (period == '5') {
           loan = price - DownPay;
@@ -39,8 +39,8 @@ document.querySelector("#output2").innerText = interestPercentage + "%";
        var total = parseFloat(loan ) + Total_Interest;
        var monthly =parseFloat(total)  / (5 * 12);
        var interestPercentage = (Total_Interest / loan) * 100;
-      document.querySelector("#output1").innerText = monthly;
-document.querySelector("#output2").innerText = interestPercentage + "%";
+      document.querySelector("#output1").innerText = monthly + " $";
+document.querySelector("#output2").innerText = interestPercentage + " %";
     }
  }
 } 
